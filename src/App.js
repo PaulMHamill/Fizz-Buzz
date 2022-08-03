@@ -22,10 +22,13 @@ function App() {
     setNumber(number + 1);
     }
 
-
+  const handleDec = () => {
+    setNumber(number -1);
+  }
 
   return (
     <div className="App">
+      <button value={number} onClick={handleDec}> - </button>
       <button value={number} onClick={handleInc}> + </button>
 
       <h2> Number is {number}</h2>
