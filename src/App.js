@@ -33,7 +33,7 @@ function App() {
 
       <h2> Number is {number}</h2>
 
-      <h2> {Output} </h2>
+      <h2> Answer is {Output} </h2>
 
       <button><a href="https://en.wikipedia.org/wiki/Fizz_buzz#:~:text=Players%20generally%20sit%20in%20a,by%2015%20become%20fizz%20buzz" >Fizz Buzz Instructions</a></button>
 
